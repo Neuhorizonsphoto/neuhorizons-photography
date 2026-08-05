@@ -167,9 +167,18 @@
   </footer>
 
   <dialog class="lightbox">
-    <button class="close-lightbox" aria-label="Close image">×</button>
-    <img src="" alt="Expanded portfolio image">
-  </dialog>
+  <button class="close-lightbox" aria-label="Close image">×</button>
+
+  <button class="lightbox-arrow lightbox-prev" type="button"
+    aria-label="View previous image">‹</button>
+
+  <img src="" alt="Expanded portfolio image">
+
+  <button class="lightbox-arrow lightbox-next" type="button"
+    aria-label="View next image">›</button>
+
+  <p class="lightbox-counter" aria-live="polite"></p>
+</dialog>
 
   <script src="/script.js"></script>
 </body>
