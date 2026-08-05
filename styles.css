@@ -33,7 +33,7 @@ nav a:hover { color: var(--cyan); }
 .menu-button { display: none; color: white; background: transparent; border: 1px solid var(--line); border-radius: 99px; padding: 8px 13px; }
 
 .hero { min-height: 100svh; position: relative; display: grid; place-items: center; overflow: hidden; }
-.hero-image { position: absolute; inset: 0; background: url('/assets/senior-steps-wide.jpg') center 38%/cover; transform: scale(1.03); animation: breathe 12s ease-in-out infinite alternate; }
+.hero-image { position: absolute; inset: 0; background: url('/assets/lake-sunset.jpg') center center/cover no-repeat; transform: scale(1.03); animation: breathe 12s ease-in-out infinite alternate; }
 @keyframes breathe { to { transform: scale(1.08); } }
 .hero-overlay { position: absolute; inset: 0; background: radial-gradient(circle at 65% 40%, rgba(8,7,13,.15), rgba(7,6,11,.82) 58%, #07060b 96%), linear-gradient(90deg, rgba(7,6,11,.93), rgba(7,6,11,.2)); }
 .grid-floor { position: absolute; left: -20%; right: -20%; bottom: -18%; height: 42%; opacity: .18; transform: perspective(360px) rotateX(62deg); transform-origin: bottom; background-image: linear-gradient(rgba(67,217,255,.8) 1px, transparent 1px), linear-gradient(90deg, rgba(255,60,172,.8) 1px, transparent 1px); background-size: 55px 38px; mask-image: linear-gradient(to top, black, transparent); }
