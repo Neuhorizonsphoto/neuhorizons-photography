@@ -132,7 +132,7 @@
           <h2>Let’s create something worth remembering.</h2>
           <p>Tell me what you’d like photographed, where you’re located in Colorado, and the date you have in mind. I’ll follow up to discuss availability and pricing.</p>
         </div>
-        <form action="mailto:info@neuhorizonsphotography.com" method="post" enctype="text/plain">
+        <form action="https://formspree.io/f/xnpaaybl" method="POST">
           <label>Name<input name="name" required autocomplete="name"></label>
           <label>Email<input type="email" name="email" required autocomplete="email"></label>
           <label>Session type
@@ -150,8 +150,9 @@
           <label>Location / preferred date<input name="location-date"></label>
           <label>Tell me about your idea<textarea name="message" rows="5" required></textarea></label>
           <button class="button primary" type="submit">Send inquiry</button>
-          <small>This opens your email app. Replace the email address in <code>index.html</code> once your professional inbox is ready.</small>
-        </form>
+          <small>Your message will be sent securely. I'll get back to you as soon as possible.</small>
+        <input type="hidden" name="_subject" value="New Photography Inquiry">
+        </form>  
       </div>
     </section>
   </main>
