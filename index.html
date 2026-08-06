@@ -84,47 +84,112 @@
         <p>Senior portraits with personality and fast-moving action captured at exactly the right moment.</p>
       </div>
 
-      <div class="gallery-toolbar" aria-label="Filter gallery">
-        <button class="filter active" data-filter="all">All</button>
-        <button class="filter" data-filter="portraits">Portraits</button>
-        <button class="filter" data-filter="action">Action</button>
-        <button class="filter" data-filter="landscapes">Landscapes</button>
-      </div>
+      <nav class="portfolio-nav" aria-label="Portfolio categories">
+  <a href="#senior-portraits">Senior Portraits</a>
+  <a href="#action-sports">Action Sports</a>
+  <a href="#landscapes">Landscapes</a>
+</nav>
 
-      <div class="gallery">
-        <button class="gallery-card tall" data-category="portraits" data-image="/assets/senior-school.jpg" aria-label="Open senior portrait">
-          <img src="/assets/senior-school.jpg" alt="Senior portrait outside a school">
-          <span>Senior portraits</span>
-        </button>
-        <button class="gallery-card wide" data-category="action" data-image="/assets/moto-wheelie.jpg" aria-label="Open motorcycle wheelie photo">
-          <img src="/assets/moto-wheelie.jpg" alt="Motorcycle rider performing a wheelie">
-          <span>Action sports</span>
-        </button>
-        <button class="gallery-card" data-category="landscapes" data-image="/assets/lake-sunset.jpg" aria-label="Open lake sunset photo">
-          <img src="/assets/lake-sunset.jpg" alt="Colorado lake reflecting a blue and orange sunset">
-          <span>Landscapes</span>
-        </button>
-        <button class="gallery-card" data-category="portraits" data-image="/assets/senior-bleachers.jpg" aria-label="Open senior portrait on bleachers">
-          <img src="/assets/senior-bleachers.jpg" alt="Senior seated on bleachers with brass instruments">
-          <span>Personality</span>
-        </button>
-        <button class="gallery-card wide" data-category="action" data-image="/assets/moto-dirt.jpg" aria-label="Open dirt bike action photo">
-          <img src="/assets/moto-dirt.jpg" alt="Dirt bike rider trailing dust over a hill">
-          <span>Motion</span>
-        </button>
-        <button class="gallery-card" data-category="landscapes" data-image="/assets/highway-sunset.jpg" aria-label="Open highway sunset photo">
-          <img src="/assets/highway-sunset.jpg" alt="Bright red Colorado sunset over a highway">
-          <span>Colorado skies</span>
-        </button>
-        <button class="gallery-card wide" data-category="portraits" data-image="/assets/senior-steps-wide.jpg" aria-label="Open trumpet senior portrait">
-          <img src="/assets/senior-steps-wide.jpg" alt="Senior seated on school steps holding a trumpet">
-          <span>Milestones</span>
-        </button>
-        <button class="gallery-card" data-category="action" data-image="/assets/moto-corner.jpg" aria-label="Open motorcycle cornering photo">
-          <img src="/assets/moto-corner.jpg" alt="Supermoto rider leaning through a turn">
-          <span>Speed</span>
-        </button>
-      </div>
+<div class="portfolio-section" id="senior-portraits">
+  <div class="portfolio-heading">
+    <p class="eyebrow">Portraits</p>
+    <h3>Senior Portraits</h3>
+    <p>Relaxed, personalized sessions that highlight personality, interests, and important milestones.</p>
+  </div>
+
+  <div class="gallery">
+    <button class="gallery-card tall" data-category="portraits"
+      data-image="/assets/senior-school.jpg"
+      aria-label="Open senior portrait outside a school">
+      <img src="/assets/senior-school.jpg"
+        alt="Senior portrait outside a school"
+        loading="lazy">
+      <span>Senior portraits</span>
+    </button>
+
+    <button class="gallery-card" data-category="portraits"
+      data-image="/assets/senior-bleachers.jpg"
+      aria-label="Open senior portrait on bleachers">
+      <img src="/assets/senior-bleachers.jpg"
+        alt="Senior seated on bleachers with brass instruments"
+        loading="lazy">
+      <span>Personality</span>
+    </button>
+
+    <button class="gallery-card wide" data-category="portraits"
+      data-image="/assets/senior-steps-wide.jpg"
+      aria-label="Open senior portrait on school steps">
+      <img src="/assets/senior-steps-wide.jpg"
+        alt="Senior seated on school steps holding a trumpet"
+        loading="lazy">
+      <span>Milestones</span>
+    </button>
+  </div>
+</div>
+      <div class="portfolio-section" id="action-sports">
+  <div class="portfolio-heading">
+    <p class="eyebrow">Motion and energy</p>
+    <h3>Action Sports</h3>
+    <p>Fast-moving photography focused on speed, movement, and decisive moments.</p>
+  </div>
+
+  <div class="gallery">
+    <button class="gallery-card wide" data-category="action"
+      data-image="/assets/moto-wheelie.jpg"
+      aria-label="Open motorcycle wheelie photo">
+      <img src="/assets/moto-wheelie.jpg"
+        alt="Motorcycle rider performing a wheelie"
+        loading="lazy">
+      <span>Wheelies</span>
+    </button>
+
+    <button class="gallery-card wide" data-category="action"
+      data-image="/assets/moto-dirt.jpg"
+      aria-label="Open dirt bike action photo">
+      <img src="/assets/moto-dirt.jpg"
+        alt="Dirt bike rider trailing dust over a hill"
+        loading="lazy">
+      <span>Motion</span>
+    </button>
+
+    <button class="gallery-card" data-category="action"
+      data-image="/assets/moto-corner.jpg"
+      aria-label="Open motorcycle cornering photo">
+      <img src="/assets/moto-corner.jpg"
+        alt="Supermoto rider leaning through a turn"
+        loading="lazy">
+      <span>Speed</span>
+    </button>
+  </div>
+</div>
+
+<div class="portfolio-section" id="landscapes">
+  <div class="portfolio-heading">
+    <p class="eyebrow">Colorado scenery</p>
+    <h3>Landscapes</h3>
+    <p>Colorful skies, outdoor scenery, and memorable views from across Colorado.</p>
+  </div>
+
+  <div class="gallery">
+    <button class="gallery-card wide" data-category="landscapes"
+      data-image="/assets/lake-sunset.jpg"
+      aria-label="Open Colorado lake sunset photo">
+      <img src="/assets/lake-sunset.jpg"
+        alt="Colorado lake reflecting a blue and orange sunset"
+        loading="lazy">
+      <span>Lake sunset</span>
+    </button>
+
+    <button class="gallery-card wide" data-category="landscapes"
+      data-image="/assets/highway-sunset.jpg"
+      aria-label="Open Colorado highway sunset photo">
+      <img src="/assets/highway-sunset.jpg"
+        alt="Bright red Colorado sunset over a highway"
+        loading="lazy">
+      <span>Colorado skies</span>
+    </button>
+  </div>
+</div>
     </section>
 
     <section class="section services" id="services">
