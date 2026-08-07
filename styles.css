@@ -103,9 +103,9 @@ footer { width: min(var(--max), calc(100% - 44px)); margin: auto; min-height: 15
   .brand span { display: none; }
   .brand img { width: 42px; height: 42px; }
   .menu-button { display: block; }
-  nav { position: absolute; left: 16px; right: 16px; top: 62px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 10px; border: 1px solid var(--line); border-radius: 16px; background: rgba(10,8,15,.98); }
-  nav.open { display: flex; }
-  nav a { padding: 13px; }
+  #nav { position: absolute; left: 16px; right: 16px; top: 62px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 10px; border: 1px solid var(--line); border-radius: 16px; background: rgba(10,8,15,.98); }
+  #nav.open { display: flex; }
+  #nav a { padding: 13px; }
   .nav-cta { border-radius: 10px; text-align: center; }
   .hero-image { background-position: 58% 40%; }
   .hero-overlay { background: linear-gradient(to top, rgba(7,6,11,.96) 6%, rgba(7,6,11,.35), rgba(7,6,11,.72)); }
